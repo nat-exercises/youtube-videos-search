@@ -1,11 +1,12 @@
 import React from "react";
+import SearchBar from "./components/SearchBar";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>test</h1>
+          <SearchBar />
         </header>
       </div>
     );
