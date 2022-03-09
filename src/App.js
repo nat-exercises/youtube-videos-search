@@ -4,10 +4,8 @@ import SearchBar from "./components/SearchBar";
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <SearchBar />
-        </header>
+      <div className="ui container" style={{ marginTop: "20px" }}>
+        <SearchBar />
       </div>
     );
   }
