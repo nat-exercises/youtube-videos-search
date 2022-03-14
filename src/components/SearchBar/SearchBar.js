@@ -22,6 +22,15 @@ class SearchBar extends React.Component {
               value={this.state.term}
               onChange={this.onInputChange}
             />
+            <button
+              className="medium ui black button"
+              type="submit"
+              style={{
+                marginTop: "10px",
+              }}
+            >
+              Search
+            </button>
           </div>
         </form>
       </div>
